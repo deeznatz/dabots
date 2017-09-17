@@ -1,0 +1,12 @@
+{
+  "name": "boatz",
+  "version": "1.0.0",
+  "description": "",
+  "main": "bot.js",
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "discord.js": "11.1.0"
+  }
+}
