@@ -23,11 +23,11 @@ bot.on("message", function(message) {
       break;
     case "Komandos":
       message.author.sendMessage(":thinking:")
-    case "Taisykles":
+    case "taisykles":
       var embed = new Discord.RichEmbed()
           .addField("1. Nesityčioti.", "1 kartas - warning, 2 kartas - mute 3 dienai, 3 kartas - ban visam laikui. ")
           .addField("2. Nefloodinti chat'o", "1 kartas - kick, 2 kartas - kartas mute 1 dienai, 3 kartas - ban 7 dienom. ")
-      message.channel.sendEmbed(embed);
+      message.author.sendEmbed(embed);
       break;
       
       
