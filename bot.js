@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const PREFIX = "&";
 
-bot.on('ready', () => {
-  console.log(`Prisijungta kaip ${client.user.tag}!`);
+bot.on("ready", function() {
+  console.log("Prisijungta!");
 });
 
 bot.on("message", function(message) {
