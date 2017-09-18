@@ -28,6 +28,7 @@ bot.on("message", function(message) {
           .addField("1. Nesityčioti.", "1 kartas - warning, 2 kartas - mute 3 dienai, 3 kartas - ban visam laikui. ")
           .addField("2. Nefloodinti chat'o", "1 kartas - kick, 2 kartas - kartas mute 1 dienai, 3 kartas - ban 7 dienom. ")
       message.author.sendEmbed(embed);
+      message.channel.sendMessage("Taisykles nusiustos i DM!")
       break;
       
       
