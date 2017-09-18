@@ -2,8 +2,8 @@ const Discord = require("discord.js");
 const bot = new Discord.Client();
 const PREFIX = "&";
 
-client.on('ready', () => {
-  console.log(`Logged in as ${client.user.tag}!`);
+bot.on('ready', () => {
+  console.log(`Prisijungta kaip ${client.user.tag}!`);
 });
 
 bot.on("message", function(message) {
@@ -33,4 +33,4 @@ bot.on("message", function(message) {
   }
 });
 
-client.login(process.env.BOT_TOKEN);
+bot.login(process.env.BOT_TOKEN);
