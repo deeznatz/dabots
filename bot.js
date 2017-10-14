@@ -34,7 +34,7 @@ bot.on("message", function(message) {
       
   }
 });
-bpt.on("guildMemberRemove", member => {
+bot.on("guildMemberRemove", member => {
   let guild = member.guild;
   bot.channels.get("360845345250476032").sendMessage(`Ate ${member.user.username}... Ačiū, kad čia buvai!`);
 });
