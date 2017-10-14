@@ -41,7 +41,7 @@ bot.on("guildMemberRemove", member => {
 
 bot.on("guildMemberAdd", member => {
   let guild = member.guild;
-  bot.channels.get("3360845345250476032").sendMessage(`Sveikas ${member.user.username}! Linkiu linksmai praleisti laiką!`);
+  bot.channels.get("360845345250476032").sendMessage(`Sveikas ${member.user.username}! Linkiu linksmai praleisti laiką!`);
 });
 
 bot.login(process.env.BOT_TOKEN);
