@@ -34,14 +34,14 @@ bot.on("message", function(message) {
       
   }
 });
-client.on("guildMemberRemove", member => {
+bpt.on("guildMemberRemove", member => {
   let guild = member.guild;
-  client.channels.get("360845345250476032").sendMessage(`Ate ${member.user.username}... Ačiū, kad čia buvai!`);
+  bot.channels.get("360845345250476032").sendMessage(`Ate ${member.user.username}... Ačiū, kad čia buvai!`);
 });
 
-client.on("guildMemberAdd", member => {
+bot.on("guildMemberAdd", member => {
   let guild = member.guild;
-  client.channels.get("3360845345250476032").sendMessage(`Sveikas ${member.user.username}! Linkiu linksmai praleisti laiką!`);
+  bot.channels.get("3360845345250476032").sendMessage(`Sveikas ${member.user.username}! Linkiu linksmai praleisti laiką!`);
 });
 
 bot.login(process.env.BOT_TOKEN);
